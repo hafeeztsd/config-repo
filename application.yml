@@ -4,6 +4,8 @@ spring:
   cloud:
     config:
         url: http://localhost:6061
+    client:
+      enabled: true    
       
 eureka:
   client:
