@@ -3,7 +3,7 @@ spring:
     name: name-service
   cloud:
     config:
-        url: http://localhost:6061
+        url: http://localhost:8888
     client:
       enabled: true    
       
