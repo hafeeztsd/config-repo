@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: name-service
+
+config:
+  names:
+    Abdul Hafeez
+    Abdul Sattart
+    Muhammed Haris
+    Muhammed Umair
+    Muahmmed Taha
+    Muhammed Umer
+    Muhammed Talha
+    

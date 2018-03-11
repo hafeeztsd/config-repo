@@ -1,0 +1,23 @@
+spring:
+  cloud:
+    config:
+        url: http://localhost:8888
+    client:
+      enabled: true    
+      
+eureka:
+  client:
+    service-url:
+       defaultZone: http://localhost:9091/eureka
+    register-with-eureka: true
+    fetch-registry: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+    
+server:
+  port: 0 
+    
