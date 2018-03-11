@@ -1,8 +1,10 @@
 spring:
   application:
     name: name-service
-    
-    
+  cloud:
+    config:
+        url: http://localhost:6061
+      
 eureka:
   client:
     service-url:
@@ -15,7 +17,17 @@ management:
     web:
       exposure:
         include: "*"
-          
     
 server:
   port: 0 
+  
+config:
+  names:
+    Abdul Hafeez
+    Abdul Sattart
+    Muhammed Haris
+    Muhammed Umair
+    Muahmmed Taha
+    Muhammed Umer
+    Muhammed Talha
+    
