@@ -1,3 +1,7 @@
+spring:
+  application:
+    name: name-service
+
 config:
   names:
     Abdul Hafeez
