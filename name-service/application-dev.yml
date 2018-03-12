@@ -1,10 +1,10 @@
 config:
   names:
-    Abdul Hafeez
-    Abdul Sattart
-    Muhammed Haris
-    Muhammed Umair
-    Muahmmed Taha
-    Muhammed Umer
-    Muhammed Talha
+    - Abdul Hafeez
+    - Abdul Sattart
+    - Muhammed Haris
+    - Muhammed Umair
+    - Muahmmed Taha
+    - Muhammed Umer
+    - Muhammed Talha
     
