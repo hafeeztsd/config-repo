@@ -1,0 +1,11 @@
+spring:
+  h2:
+  datasource:
+    url: jdbc:h2:mem:healthdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: 
+    platform: h2
+
+config:
+  ping-delay: 60000        
